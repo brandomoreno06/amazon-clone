@@ -1,0 +1,26 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+
+.checkout__title {
+    padding: 10px;
+}
+
+.checkout_list {
+    border-top: 2px groove lightgray;
+}
+
+.checkout__details {
+    flex: 0.75;
+}
+
+.checkout__summary  {
+    flex: 0.25;
+    width: max-content;
+    display: flex;
+    justify-content: flex-end;
+}
